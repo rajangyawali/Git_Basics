@@ -1,0 +1,38 @@
+ Basic Steps to be followed on Windows PowerShell:
+
+ 1) Create a repository name ("userName.github.io").
+
+ 2) Initilaize this repository with README.
+
+ 3) Copy the link from address bar.
+
+ 4) Start Windows PowerShell and the change the location where you want to clone the repository (Eg: cd Desktop) .
+
+ 5) Type the command: git clone "link copied previously" (for example=> git clone https://github.com/rajangyawali/rajangyawali.github.io.git).
+
+ 6) Type the command: cd "username" (Press Tab to auto-complete) , (for example=> cd .\rajangyawali.github.io).
+
+ 7) Type the command: ls (for listing the contents).
+
+ 8) Github pages uses index.html as home page so we need to create that page.
+      Type the command: touch index.html
+    
+ 9) Type the command: ls (for listing the contents).
+
+10) Type the command: notepad index.html (for opening the index.html page. You can use notepad++ also).
+
+11) Write the HTML contents on that page and save.
+
+12) Type the command: git add index.html (for deployment, preparing for the file to upload).
+
+13) Type the command: git status (to see what changes are made).
+
+14) Type the command: git commit -m "added index.html" (Git expects you to leave a message of what you have done).
+
+15) Type the command: git push origin master (for uploading).
+
+16) Type username.
+
+17) Type password.
+
+18) Finally the file is uploaded.
