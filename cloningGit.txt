@@ -1,3 +1,57 @@
+INSTALLING GIT ON UBUNTU
+
+   $ sudo apt-get update
+   $ sudo apt-get install git
+   
+ -----------------------------------------------------------------------------------------------------------------------
+
+CONFIGURING USERNAME AND EMAIL
+
+   $ git config --global user.name "user_name"
+   $ git config --global user.email "user_email"
+   
+   For different users remove the 'global' keyword and use these commands.
+ -------------------------------------------------------------------------------------------------------------------------
+
+
+PUSHING THE FILE TO REPOSITORY FROM COMMAND LINE
+
+1) Create local directory 
+    $ sudo mkdir repository_name 
+
+2) Type: $ sudo chmod 777 repository_name
+
+3) Type: $ cd repository_name
+
+4) Type: $ git init
+
+5) Put the files under the directory repository_name and type:
+         $ git add .
+         $ gedit README
+         $ git add README
+         
+         README is a file for describing the repository.
+         
+ 6) Type: git commit -m "Your message"
+ 
+ 7) Type: git remote add origin https://github.com/username/repository_name.git
+ 
+ 8) Type: git push origin master
+ 
+ 9) Type the username and password.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+CLONING A REPOSITORY
+
+Type: $ git clone https://github.com/username/repository_name.git /home/username/project_folder.
+
+       Pathname can me assigned as per our wish and is optional.
+       
+       
+ ------------------------------------------------------------------------------------------------------------------------------
+
  Basic Steps to be followed on Windows PowerShell:
 
  1) Create a repository name ("userName.github.io").
