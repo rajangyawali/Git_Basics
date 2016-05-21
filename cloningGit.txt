@@ -23,7 +23,7 @@ PUSHING THE FILE TO REPOSITORY FROM COMMAND LINE
 
 3) Type: $ cd repository_name
 
-4) Type: $ git init
+4) Type: $ git init repository_name
 
 5) Put the files under the directory repository_name and type:
          $ git add .
