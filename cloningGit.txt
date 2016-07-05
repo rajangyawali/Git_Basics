@@ -90,3 +90,8 @@ Type: $ git clone https://github.com/username/repository_name.git /home/username
 17) Type password.
 
 18) Finally the file is uploaded.
+
+You can also push to other github account from your own machine if you wish to.
+Without adding the global keyword as
+$ git config user.name "user_name"
+$ git config user.email "user_email"
