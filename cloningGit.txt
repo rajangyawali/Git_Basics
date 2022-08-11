@@ -1,3 +1,4 @@
+@@Author: Rajan Gyawali
 INSTALLING GIT ON UBUNTU
 
    $ sudo apt-get update
