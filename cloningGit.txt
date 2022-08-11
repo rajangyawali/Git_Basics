@@ -1,4 +1,4 @@
-@@Author: Rajan Gyawali
+@@Author: Rajan Gyawali -> updated on August 11, 2022
 INSTALLING GIT ON UBUNTU
 
    $ sudo apt-get update
